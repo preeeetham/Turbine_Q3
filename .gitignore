@@ -17,4 +17,23 @@ Thumbs.db
 
 # Environment files
 .env
-.env.local 
+.env.local # Wallet files - NEVER COMMIT THESE
+*-wallet.json
+wallet.json
+dev-wallet.json
+turbin3-wallet.json
+Turbin3-wallet.json
+
+# Rust build artifacts
+turbine_prereq2/target/
+turbine_prereq2/**/*.rs.bk
+
+# OS files
+.DS_Store
+.vscode/
+*.swp
+*.tmp
+
+# Environment files
+.env
+.env.local
