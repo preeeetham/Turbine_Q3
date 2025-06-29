@@ -27,6 +27,8 @@ Turbin3-wallet.json
 # Rust build artifacts
 turbine_prereq2/target/
 turbine_prereq2/**/*.rs.bk
+http_rust/target/
+http_rust/Cargo.lock
 
 # OS files
 .DS_Store
